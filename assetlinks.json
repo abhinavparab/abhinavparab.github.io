@@ -1,0 +1,25 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "web",
+        "site": "https://abhinavparab.github.io"
+      }
+    },
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.bhsb.boostbank.dev",
+        "sha256_cert_fingerprints": [
+          "DA:1F:42:6A:95:50:52:A1:44:1A:AA:A3:40:C3:5A:55:5C:1F:D3:1E:B9:1E:E0:C1:1B:52:1B:31:FC:41:64:B6"
+        ]
+      }
+    }
+  ]
